@@ -1,15 +1,19 @@
 #Greet people trying to enter the club
-print("Welcome to City Lights, may I see your ID please?")
+print('Welcome to City Lights, may I see your ID please?')
 
 #Declare an age variable and assign a value
-age = 35
+age = int(input('Please enter your age: '))
 
-#If the age is less than 35, print a message denying entry
-print("please enter your age: ")
-input_age = int(input('Enter your age: '))
-if input_age < age:
-    print("Sorry, you are not old enough to enter the club.")   
-if input_age >= age:
-    print("Welcome to the club! Enjoy your night!")
+#If the age is less than 18, print a message denying entry
+if age < 18:
+    print('I\'m sorry, but you\'re too young')
 
+elif age <= 20:
+    print('Here is a red armband. You can go inside, but not able to buy drinks.')
+
+elif age > 27:
+    print('Grown folk club down the road.')
+
+else:
+    print('Welcome in!! Enjoy your night.')
 
