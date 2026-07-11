@@ -1,3 +1,5 @@
+#Script to check multiples of 3 from a list of 1 to 20
+
 numbers = list(range(1, 21))
 multiples_of_three = []
 
