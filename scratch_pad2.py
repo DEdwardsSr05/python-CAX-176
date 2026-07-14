@@ -23,4 +23,8 @@
 # print(len(x))
 # print(len(y))
 
-print(1/0)
+def add(a, b):
+    print(a + b)
+
+result = add(3, 4)
+print(result)
