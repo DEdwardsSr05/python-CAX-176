@@ -23,8 +23,19 @@
 # print(len(x))
 # print(len(y))
 
-def add(a, b):
-    print(a + b)
+# def add(a, b):
+#     print(a + b)
 
-result = add(3, 4)
-print(result)
+# result = add(3, 4)
+# print(result)
+
+hour = int(input("Starting time (hours): "))
+minutes = int(input("Starting time (minutes): "))
+duration = int(input("Event duration (minutes): "))
+
+minutes = minutes + duration  # find total number of minutes
+hour = hour + (minutes // 60)
+minutes = minutes % 60
+hour = hour % 24
+
+print(hour, ":", minutes, sep=" ")
