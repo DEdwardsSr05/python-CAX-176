@@ -102,6 +102,19 @@
 
 # print(a, b)
 
+# def custom_function(value):
+#     if value % 3 == 0:
+#         return 1
+#     else:
+#         return 2
+
+
+# print(custom_function(custom_function(4)))
+
+inventory = ['apple', 'banana', 'cherry']
+backup_inventory = inventory
+del backup_inventory[:]
+print(backup_inventory)
 
 
 
