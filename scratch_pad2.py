@@ -111,10 +111,21 @@
 
 # print(custom_function(custom_function(4)))
 
-inventory = ['apple', 'banana', 'cherry']
-backup_inventory = inventory
-del backup_inventory[:]
-print(backup_inventory)
+# inventory = ['apple', 'banana', 'cherry']
+# backup_inventory = inventory
+# del backup_inventory[:]
+# print(backup_inventory)
+
+# import math
+
+# result = math.e != math.pow(2, 4)
+# print(int(result))
+
+from random import randint
+    
+for i in range(2):
+   print(randint(1, 2), end='')
+    
 
 
 
